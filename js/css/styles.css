@@ -14,3 +14,13 @@
     outline: none;
     cursor: pointer;
 }
+
+.title__link {
+    display: inline-flex;
+    margin-right: 40px;
+
+}
+
+.transaction-data {
+border: 2px solid black;
+}

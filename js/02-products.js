@@ -15,6 +15,8 @@ import products from './data/products.js';
 
 console.log(products);
 
+const productContainerEl = document.querySelector('.js-products');
+
 const makeProductCard = ({name, description, price}) => {
 
 const productEl = document.createElement('article');
@@ -43,5 +45,6 @@ return productEl;
 const elements = products.map(makeProductCard);
 
 console.log(elements);
+productContainerEl.append(...elements);
 
 
